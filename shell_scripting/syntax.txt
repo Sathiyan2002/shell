@@ -1,0 +1,54 @@
+syntax for if
+
+if  [condition];
+then
+   statement
+fi
+
+
+syntax for if else
+
+if  [condition];
+then
+   statement
+else
+   statement
+fi
+
+
+syntax for if elif
+
+if  [condition];
+then
+   statement1
+elif [condition];
+then
+   statement2
+else
+   statement3
+fi
+
+syntax for for_loop
+
+for var in list
+do
+   statement
+done
+
+
+syntax for while_loop
+
+while [condition];
+do
+   statement
+done
+(condition is true, enter into loop)
+
+
+syntax fot until_loop
+
+until [condition]
+do
+   statement
+done
+(condition is false, enter into loop)
